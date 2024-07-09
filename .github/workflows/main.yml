@@ -6,7 +6,7 @@ on:
       - "main"
 
 env:
-  TEST_TAG: Daria-Gorelkina/devops-example-app:test
+  TEST_TAG: gddaria/devops-example-app:test
 
 jobs:
   docker:
@@ -37,4 +37,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: Daria-Gorelkina/devops-example-app:latest
+          tags: gddaria/devops-example-app:latest
